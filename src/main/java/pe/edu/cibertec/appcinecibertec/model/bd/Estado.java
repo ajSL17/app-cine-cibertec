@@ -10,6 +10,6 @@ public class Estado {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idestado;
-    @Column(name = "desestado")
-    private String desestado;
+    @Column(name = "descestado")
+    private String descestado;
 }
